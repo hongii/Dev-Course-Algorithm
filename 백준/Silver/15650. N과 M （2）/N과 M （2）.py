@@ -5,7 +5,7 @@ input = sys.stdin.readline
 n, m = map(int, input().split())
 nums = [i for i in range(1, n+1)]
 
-sol 1) 조합 라이브러리 사용
+# sol 1) 조합 라이브러리 사용
 comb = combinations(nums, m)
 for cb in comb:
   print(" ".join(map(str, cb)))
