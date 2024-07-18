@@ -1,7 +1,6 @@
 from itertools import permutations as pm
 import sys
-import os
-sys.stdin = open(os.getcwd() + "\\input.txt", "rt")
+
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
