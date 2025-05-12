@@ -8,9 +8,7 @@ function solution(n, computers) {
             if(i === j) continue;
             if(comp[j] === 1) graph[i].push(j);
         }
-      
     })
-    console.log(graph)
     
     const bfs = (x) => {
         visited[x] = true;
@@ -25,9 +23,7 @@ function solution(n, computers) {
                     q.push(next);
                 }
             }
-            
         }
-        
     }
     
     for (let i=0; i<n; i++){
